@@ -16,9 +16,9 @@
 >    (To ale vše jde lehce obejít a nic neplatit :-) )
 >  - Integrace některých zařízení, které nejsou plně podporovaný, je trochu složitější dosáhnou plné podpory (ale jde to)
 
-
 ## Instalace
-
+> 1. Důležité si rozmyslet jaký druh HA budeme instalovat (HA OS, HA Container, HA Core, HA Supervised)
+>  - Každý druh má odlišné podpory určitých věcí, nejlepší jsou HA OS a HA Supervised, ty podporují vše kromě spravování OS.
 
 ## Integrace zařízení
 
