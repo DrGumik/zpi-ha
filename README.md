@@ -24,7 +24,7 @@
 >  - Zde si stáhneme image s HA https://www.home-assistant.io/installation/windows
 >  - Poté vytvoříme ve VirtualBoxu nový stroj s Linuxem
 >  - Vybereme existující virtualní HD soubor (ten co jsme stáhli)
->  - Přejdeme do nastavení stroje a zapneme EFI a v nastavení sítě vybereme most (Bridged Adapter)
+>  - Přejdeme do nastavení stroje a zapneme EFI a v nastavení sítě vybereme síťový most (Bridged Adapter)
 >   (Velká nevýhoda běhu HA ve VirtualBoxu je, že PC musí být připojen k LAN síti pomocí kabelu...)
 >  - Teď můžeme spustit stroj a počkat cca 5 minut něž HA naběhne
 >  - Půjdeme na stránku homeassistant.local:8123 nebo <IP zařízení>:8123 (např localhost:8123)
@@ -41,4 +41,7 @@
 > - Teď můžeme jít do našeho dashboardu a přidat funkce našeho zařízení (například ukazatel teploty)
 
 ## Vysvětlení UI a ovládání
-UI (user interface, rozhraní pro uživatele) Home Assistenta je přehledné a intuitivní. Obsahuje hlavní panel, na kterém jsou zobrazena všechna ovládaná zařízení, a nabídku možností, která umožňuje přístup k dalším funkcím a nastavením. Ovládání Home Assistenta je snadné a lze jej provést pomocí jednoduchých doteků na obrazovce nebo hlasových příkazů.
+> ![image](https://user-images.githubusercontent.com/23415613/207909057-0919f755-4f5a-4b88-a052-46898f70ad7c.png)<br>
+> V pravém horním rohu vidíme tři tečky, přes to lze editovat celý UI (dashboard)
+> ![image](https://user-images.githubusercontent.com/23415613/207909688-0153c707-dade-41e6-b352-c33b64ab9845.png)<br>
+> Po kliknutí se nám změní nabídka, můžeme přidávat listy s UI a kartičky, které představují daný objekt (například tlačítko, výpis senzorů apod...)
