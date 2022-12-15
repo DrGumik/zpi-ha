@@ -32,6 +32,12 @@
 
 
 ## Integrace zařízení
-
+> Integrace zařízení do Home Assistenta je snadná a lze ji provést pomocí jednoduchých kroků.
+> Zjistíme, zda je dané zařízení kompatibilní s Home Assistentem. 
+> Stránku se všemi podporovanými zařízení nalezneme zde https://www.home-assistant.io/integrations/
+> (Jsou zde i návody jak naintegrovat do HA)
+> 
+> - Půjdeme do nastavení -> zařízení (integrace) -> zde by už mělo být vidět naše zařízení, které chceme zaintegrovat, pokud ne klikneme na přidat a vyhledáme
+> - Teď můžeme jít do našeho dashboardu a přidat funkce našeho zařízení (například ukazatel teploty)
 
 ## Vysvětlení UI a ovládání
