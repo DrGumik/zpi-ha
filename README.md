@@ -16,9 +16,20 @@
 >    (To ale vše jde lehce obejít a nic neplatit :-) )
 >  - Integrace některých zařízení, které nejsou plně podporovaný, je trochu složitější dosáhnou plné podpory (ale jde to)
 
+
 ## Instalace
-> 1. Důležité si rozmyslet jaký druh HA budeme instalovat (HA OS, HA Container, HA Core, HA Supervised)
->  - Každý druh má odlišné podpory určitých věcí, nejlepší jsou HA OS a HA Supervised, ty podporují vše kromě spravování OS.
+> Instalace Home Assistenta je snadná a lze ji provést pomocí několika jednoduchých kroků. 
+>  - Nejprve si musíme promyslet jakou verzi budeme instalovat (HA OS, HA Container, HA Core, HA Supervised)
+>  - Na přednášce si ukážeme instalaci HA OS do Virtual Boxu, za mě nejlepší je HA Supervised, protože tam mi fungovalo vše (na HA OS nefunguje dobře rozšíření HACS)
+>  - Zde si stáhneme image s HA https://www.home-assistant.io/installation/windows
+>  - Poté vytvoříme ve VirtualBoxu nový stroj s Linuxem
+>  - Vybereme existující virtualní HD soubor (ten co jsme stáhli)
+>  - Přejdeme do nastavení stroje a zapneme EFI a v nastavení sítě vybereme most (Bridged Adapter)
+>   (Velká nevýhoda běhu HA ve VirtualBoxu je, že PC musí být připojen k LAN síti pomocí kabelu...)
+>  - Teď můžeme spustit stroj a počkat cca 5 minut něž HA naběhne
+>  - Půjdeme na stránku homeassistant.local:8123 nebo <IP zařízení>:8123 (např localhost:8123)
+>  - První konfigurace je velmi jednoduchá, vytvoříte si účet pro přihlášení do UI a nastavíte základní informace o domově
+
 
 ## Integrace zařízení
 
