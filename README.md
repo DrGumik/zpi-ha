@@ -45,3 +45,7 @@
 > V pravém horním rohu vidíme tři tečky, přes to lze editovat celý UI (dashboard)
 > ![image](https://user-images.githubusercontent.com/23415613/207909688-0153c707-dade-41e6-b352-c33b64ab9845.png)<br>
 > Po kliknutí se nám změní nabídka, můžeme přidávat listy s UI a kartičky, které představují daný objekt (například tlačítko, výpis senzorů apod...)
+
+## Užitečné odkazy (rozšíření jak oficiální tak i neoficiální)
+> - CloudFlared - https://github.com/brenner-tobias/ha-addons
+> - HACS - https://hacs.xyz/
