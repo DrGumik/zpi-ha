@@ -47,5 +47,6 @@
 > Po kliknutí se nám změní nabídka, můžeme přidávat listy s UI a kartičky, které představují daný objekt (například tlačítko, výpis senzorů apod...)
 
 ## Užitečné odkazy (rozšíření jak oficiální tak i neoficiální)
+> Přidání externího rozšíření je lehké, v "obchodě" s addony přidáme přes tři tečky (v pravém horním rohu) nový repozitář
 > - CloudFlared - https://github.com/brenner-tobias/ha-addons
 > - HACS - https://hacs.xyz/
