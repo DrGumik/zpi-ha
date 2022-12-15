@@ -41,3 +41,4 @@
 > - Teď můžeme jít do našeho dashboardu a přidat funkce našeho zařízení (například ukazatel teploty)
 
 ## Vysvětlení UI a ovládání
+UI (user interface, rozhraní pro uživatele) Home Assistenta je přehledné a intuitivní. Obsahuje hlavní panel, na kterém jsou zobrazena všechna ovládaná zařízení, a nabídku možností, která umožňuje přístup k dalším funkcím a nastavením. Ovládání Home Assistenta je snadné a lze jej provést pomocí jednoduchých doteků na obrazovce nebo hlasových příkazů.
