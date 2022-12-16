@@ -47,6 +47,7 @@
 > Po kliknutí se nám změní nabídka, můžeme přidávat listy s UI a kartičky, které představují daný objekt (například tlačítko, výpis senzorů apod...)
 
 ## Užitečné odkazy (rozšíření jak oficiální tak i neoficiální)
-> Přidání externího rozšíření je lehké, v "obchodě" s addony přidáme přes tři tečky (v pravém horním rohu) nový repozitář
-> - CloudFlared - https://github.com/brenner-tobias/ha-addons
-> - HACS - https://hacs.xyz/
+> Přidání externího rozšíření je lehké, v "obchodě" s addony přidáme přes tři tečky (v pravém horním rohu) nový repozitář.
+> - CloudFlared - https://github.com/brenner-tobias/ha-addons - slouží pro vytvoření tunnelu a připojení k HA vzdáleně (+ integrace Google Home / Asistenta) zdarma.
+> - HACS - https://hacs.xyz/ - slouží jako velké rozšíření nepodporované tvůrci HA, lze pomocí toho dosáhnou hezkého UI, přidat nepodporované integrace a rozšířené možnosti, pozn. nevím proč ale mě osobne HACS nefunguje na verzi HA OS, na HA Supervised funguje perfektně.
+> - ESPHome.io - přímo ve add-on storu (https://esphome.io/) - slouží pro připojení a programování vlastního MCU a následné integraci.
